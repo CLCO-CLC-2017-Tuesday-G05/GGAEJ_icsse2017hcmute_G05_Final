@@ -23,15 +23,4 @@ public class JarWebappExplodedExample extends SpringBootServletInitializer {
         sa.setLogStartupInfo(false);
         sa.run(args);
     }
-
-    @Controller
-    public static class MyController {
-
-        @RequestMapping("/")
-        public String handler (Model model) {
-            model.addAttribute("date",
-                               LocalDateTime.now());
-            return "myPage";
-        }
-    }
 }
