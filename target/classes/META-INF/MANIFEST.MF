@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: boot-exploded-jar-webapp
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: kiet
+Implementation-Vendor-Id: com.logicbig.example
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://projects.spring.io/spring-boot/boot-explode
+ d-jar-webapp/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
